@@ -1,0 +1,72 @@
+/* ESTILOS PARA COMUNIDAD*/
+.body .mainComunidad {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.body .mainComunidad .tituloTestimonio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-decoration: solid;
+  color: #e40421;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+.body .mainComunidad .imagenesTestimonios {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.body .mainComunidad .imagenesTestimonios .testimonioUno {
+  margin-right: 2rem;
+}
+.body .mainComunidad .imagenesTestimonios .testimonioDos {
+  margin-right: 2rem;
+}
+.body .footerGeneralInicio {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #eccbcd;
+  padding-top: 1rem;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter {
+  display: flex;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb {
+  display: flex;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .breadcrumb {
+  display: flex;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .breadcrumb .breadcrumFlex {
+  display: flex;
+  justify-content: flex-start;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoWhatsappInicio {
+  margin-right: 1rem;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoWhatsappInicio:hover {
+  transform: scale(1.5);
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoFacebookInicio {
+  margin-right: 1rem;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoFacebookInicio:hover {
+  transform: scale(1.5);
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoIgInicio {
+  margin-right: 1rem;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoIgInicio:hover {
+  transform: scale(1.5);
+}
+
+/*# sourceMappingURL=tyle.css.map */

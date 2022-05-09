@@ -51,10 +51,16 @@
                                 display: flex;
                                 justify-content: flex-end;
                                 
-                                .logoWhatsappInicio{ margin-right: 1rem; }
+                                .logoWhatsappInicio{ margin-right: 1rem; 
+                                 &:hover {transform: scale(1.5);} 
+                                }
                                 
-                                .logoFacebookInicio{ margin-right: 1rem; }
-                                
+                                .logoFacebookInicio{ margin-right: 1rem; 
+                                    &:hover {transform: scale(1.5);} 
+                                }
+                                .logoIgInicio{ margin-right: 1rem; 
+                                    &:hover {transform: scale(1.5);} 
+                                }
                                 
                             }
                 }  
