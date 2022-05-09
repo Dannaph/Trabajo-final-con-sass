@@ -12,10 +12,11 @@
      <link rel="stylesheet" href="imagenes/blendlogo-ICO.ico">    
      <title>Comunidad</title>
 </head>
-<body>
+
+<body class="body">
 
 <!--NAVBAR BOOTSTRAP MODIFICADA-->
-<nav style="margin:0px ; padding: 0px;" class="navbar navbar-expand-lg navbar-light bg-light">
+<nav style="margin:0px ; padding: 0px;" class="navbar navbar-expand-lg navbar-light bg-light" class="navBar" >
   <div class="container-fluid" style="background-color: #eccdcb ;">
     <a class="navbar-brand" href="index.html"><img src="imagenes/blendlogo.jpg" width="50px" alt="logoBlend"></a>
     <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color: #eccdcb" >
@@ -58,44 +59,49 @@
 <main class="mainComunidad"> 
             
   <h1 class="tituloTestimonio">TESTIMONIOS</h1>
-
+<div class="imagenesTestimonios" style="margin-top: 3rem; margin-bottom: 3rem;">
    <img class="testimonioUno" src="imagenes/testimonio 1.png" alt="TESTIMONIO1" width="300px">
    <img class="testimonioDos" src="imagenes/testimonio 2.png" alt="TESTIMONIO2" width="300px">
    <img class="testimonioTres" src="imagenes/testimonio 3.png" alt="TESTIMONIO3" width="300px">
-
+</div>
 </main>
 
 
 
 <!--FOOTER NAVEGABLE-->
-<footer class="footerGeneralInicio">  
-  <section class="sectionMenuFooter">   
-  <div class="contenedorGeneralFooter"> 
+<footer class="footerGeneralInicio">
+
+ <div class="contenedorGeneralFooter">
+  <div class="sectionMenuFooter">   
+   
      <!--BREADCRUMB BOOSTSTRAP FOOTER-->
            <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
-                     <section class="breadcrumFlex"> 
+                     <section class="breadcrumFlex" style="display:flex;"> 
                       <li class="breadcrumb-item"><a href="index.html" style="text-decoration: none; color: black;">Home</a></li>
                       <li class="breadcrumb-item"><a href="https://www.instagram.com/weloveblend/" style="text-decoration: none; color: black;">Tienda</a></li>
                       <li class="breadcrumb-item active" aria-current="page"><a href="contacto.html" style="text-decoration: none; color: black;">Contacto</a></li>
-                 </section>
-  </section>                    
-  <section class="sectionIconosFooter">                 
+                     </section>
+   </div>        
+
+  <div class="sectionIconosFooter">                 
       <!-- ICONOS NAVEGABLES -->
               
                
                       <!--ICONO DE WHATSAPP QUE REDIRIGE AL CHAT-->
-                <a href="https://wa.me/+542984289343"> <img class="logoWhatsappInicio" src="IMAGENES/whatsapplogo.png" alt="logo whatsapp" width="25px" > </a>
+                <a href="https://wa.me/+542984289343"> <img class="logoWhatsappInicio" style="margin-right: 1rem;" src="IMAGENES/whatsapplogo.png" alt="logo whatsapp" width="25px" > </a>
                      <!--ICONO DE FACEBOOK QUE REDIRIGE A PAGINA-->
-                <a href="https://www.facebook.com/weloveblend"> <img class="logoFacebookInicio" src="IMAGENES/facebooklogo.png" alt="logo FACEBOOK"width="25px"> </a>
+                <a href="https://www.facebook.com/weloveblend"> <img class="logoFacebookInicio" style="margin-right: 1rem;" src="IMAGENES/facebooklogo.png" alt="logo FACEBOOK"width="25px"> </a>
                      <!--ICONO DE INSTAGRAM QUE REDIRIGE-->
                 <a href="https://www.instagram.com/weloveblend/"><img class="logoIgInicio" src="IMAGENES/instagramlogo.png" alt="logo instargam"width="25px"></a>
-         
-                  </ol>
-                
-           </nav>
   </div>  
-  </section>    
+
+          </nav>
+                </ol>
+                
+           
+  </div>  
+ 
 </footer>
 
 

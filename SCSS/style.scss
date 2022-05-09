@@ -1,0 +1,68 @@
+/* ESTILOS PARA COMUNIDAD*/
+
+.body {
+    
+    .mainComunidad {
+        text-align: center;
+        padding-bottom: 2rem;
+        
+            .tituloTestimonio {
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+            font-size: 25px;
+            text-decoration: solid;
+            color: #e40421;
+            text-align: center;
+            text-decoration: none;
+            padding-bottom: 1rem;
+            padding-top: 3rem;    
+            }
+            .imagenesTestimonios{
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                    .testimonioUno {margin-right: 2rem;}
+                    .testimonioDos {margin-right: 2rem;}
+            }
+    }
+
+    .footerGeneralInicio{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #eccbcd;
+        padding-top: 1rem;
+
+        .contenedorGeneralFooter{
+            display: flex;
+            justify-content: space-between;
+        .sectionMenuFooter{
+            display: flex;
+
+            
+                .breadcrumb{
+                    display: flex;
+                    .breadcrumb{
+                        display: flex;
+                        .breadcrumFlex {
+                            display: flex;
+                            justify-content: flex-start;
+                        }
+                    
+        }
+                            .sectionIconosFooter{
+                                display: flex;
+                                justify-content: flex-end;
+                                
+                                .logoWhatsappInicio{ margin-right: 1rem; }
+                                
+                                .logoFacebookInicio{ margin-right: 1rem; }
+                                
+                                
+                            }
+                }  
+                     }
+            }         
+        
+}    
+
+}
+
+        

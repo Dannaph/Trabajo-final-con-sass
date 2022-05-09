@@ -1,65 +1,60 @@
-/*RESETO DE CSS*/
-*{
-    margin: 0px;
-    padding: 0px;
+/* ESTILOS PARA COMUNIDAD*/
+.body .mainComunidad {
+  text-align: center;
+  padding-bottom: 2rem;
 }
-
-/* ESTILOS NAV GENERAL*/
-.nav-link {
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid;
-    text-decoration-color: black;
-    opacity: 100%;
+.body .mainComunidad .tituloTestimonio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-decoration: solid;
+  color: #e40421;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
 }
-
-/* ESTILOS DE FOOTER GENERAL*/
-.footerGeneralInicio{
-    background-color: #eccdcb;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+.body .mainComunidad .imagenesTestimonios {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-.logoWhatsappInicio{
-    margin-right: 1rem;
+.body .mainComunidad .imagenesTestimonios .testimonioUno {
+  margin-right: 2rem;
 }
-.logoFacebookInicio {
-    margin-right: 1rem;
+.body .mainComunidad .imagenesTestimonios .testimonioDos {
+  margin-right: 2rem;
 }
-.contenedorGeneralFooter
-{padding: 1rem;
+.body .footerGeneralInicio {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #eccbcd;
+  padding-top: 1rem;
 }
-.sectionIconosFooter{
-    margin-top: 1rem;
-    margin-right: 1rem ;
+.body .footerGeneralInicio .contenedorGeneralFooter {
+  display: flex;
+  justify-content: space-between;
 }
-.breadcrumFlex {
-    display: flex;
-    justify-content: flex-start;
-    display: contents;
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter {
+  display: flex;
 }
-.iconosNavegablesFlex {
-    display: flex;
-    justify-content: flex-end;
-    
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb {
+  display: flex;
 }
-.breadcrumb-item {
-    text-decoration-color: black;
-    text-decoration-style: solid;
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .breadcrumb {
+  display: flex;
 }
-
-/*ESTILOS DE PRODUCTOS*/
-.divGeneralProductos {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .breadcrumb .breadcrumFlex {
+  display: flex;
+  justify-content: flex-start;
 }
-.btn-primary {
-    color: black;
-    background-color: #eccdcb;
-    border-color: #eccdcb;
-
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoWhatsappInicio {
+  margin-right: 1rem;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoFacebookInicio {
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
