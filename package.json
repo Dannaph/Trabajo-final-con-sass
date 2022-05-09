@@ -1,11 +1,23 @@
 {
   "name": "proyecto-final-con-sass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dannaph/Trabajo-final-con-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dannaph/Trabajo-final-con-sass/issues"
+  },
+  "homepage": "https://github.com/Dannaph/Trabajo-final-con-sass#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
 }
