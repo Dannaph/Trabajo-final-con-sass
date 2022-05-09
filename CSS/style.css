@@ -53,8 +53,20 @@
 .body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoWhatsappInicio {
   margin-right: 1rem;
 }
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoWhatsappInicio:hover {
+  transform: scale(1.5);
+}
 .body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoFacebookInicio {
   margin-right: 1rem;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoFacebookInicio:hover {
+  transform: scale(1.5);
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoIgInicio {
+  margin-right: 1rem;
+}
+.body .footerGeneralInicio .contenedorGeneralFooter .sectionMenuFooter .breadcrumb .sectionIconosFooter .logoIgInicio:hover {
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */
